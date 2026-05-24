@@ -26,7 +26,7 @@ Provide predictive insights for future outcomes
 System Architecture (Hierarchy)
 Level	Role	Access Scope
 Teacher	Class-level insights	Individual students
-Parent	Child performance tracking	Their child only
+Parent	Child performance	Their child only
 School Admin	School-wide monitoring	All students & classes
 Wereda	Multi-school oversight	Schools in wereda
 Kifle Ketema	Regional monitoring	Weredas
@@ -105,7 +105,7 @@ Analysis	Basic	Advanced
 Comparisons	Limited	Multi-level
 Decision Making	Reactive	Proactive
 Predictions	None	AI-based
-Accessibility	Restricted	Role-based access
+Accessibility	Restricted	Role-based
 Why LEARNIX Matters
 
 The current education system often suffers from:
