@@ -1,0 +1,8 @@
+flet
+streamlit
+pandas
+numpy
+plotly
+bcrypt
+cryptography
+openpyxl

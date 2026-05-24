@@ -1,0 +1,56 @@
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:flet:Assets path configured: C:\Users\mulug\OneDrive\Desktop\pro\assets
+DEBUG:flet:Creating new PubSubHub instance
+INFO:flet:Starting up TCP server on localhost:52963
+INFO:flet:Flet app has started...
+INFO:flet:App URL: tcp://localhost:52963
+INFO:flet_desktop:Starting Flet View app...
+INFO:flet_desktop:Flet client found in cache: C:\Users\mulug\.flet\client\flet-desktop-full-0.84.0
+DEBUG:flet:No active connection to terminate.
+DEBUG:flet:Connected new socket client
+DEBUG:flet_transport:_on_message: ClientAction.REGISTER_CLIENT {'session_id': None, 'page_name': '', 'page': {'route': '/', 'pwa': False, 'web': False, 'debug': False, 'wasm': False, 'test': False, 'multi_view': False, 'pyodide': False, 'platform_brightness': 'light', 'width': 1265.6, 'height': 682.4, 'platform': 'windows', 'window': {'maximized': False, 'minimized': False, 'full_screen': False, 'always_on_top': False, 'focused': True, 'visible': True, 'width': 1280.0, 'height': 720.0, 'top': 9.6, 'left': 9.6, 'opacity': 1.0}, 'media': {'padding': {'top': 0.0, 'right': 0.0, 'bottom': 0.0, 'left': 0.0}, 'view_padding': {'top': 0.0, 'right': 0.0, 'bottom': 0.0, 'left': 0.0}, 'view_insets': {'top': 0.0, 'right': 0.0, 'bottom': 0.0, 'left': 0.0}, 'device_pixel_ratio': 1.25, 'orientation': 'landscape', 'always_use_24_hour_format': False}}}
+DEBUG:flet_controls:Page(1 - 1276760316224).did_mount()
+DEBUG:flet_controls:View(3 - 1276760316560).did_mount()
+DEBUG:flet_controls:Overlay(4 - 1276760317568).did_mount()
+DEBUG:flet_controls:Dialogs(5 - 1276760317904).did_mount()
+DEBUG:flet_controls:Window(2 - 1276760318240).did_mount()
+DEBUG:flet_controls:ServiceRegistry(7 - 1276760318576).did_mount()
+DEBUG:flet_transport:send_message: ClientMessage(action=<ClientAction.REGISTER_CLIENT: 1>, body=RegisterClientResponseBody(session_id='I53pO3WYRr2wmXLP', page_patch=Page(_i=1, _c='Page', data=None, key=None, expand=None, expand_loose=False, col=12, opacity=1.0, tooltip=None, badge=None, visible=True, disabled=False, rtl=False, adaptive=None, views=[View(_i=3, _c='View', data=None, key=None, expand=None, expand_loose=False, col=12, opacity=1.0, tooltip=None, badge=None, visible=True, disabled=False, rtl=False, width=None, height=None, left=None, top=None, right=None, bottom=None, align=None, margin=None, rotate=None, scale=None, offset=None, flip=None, transform=None, aspect_ratio=None, animate_opacity=None, animate_size=None, animate_position=None, animate_align=None, animate_margin=None, animate_rotation=None, animate_scale=None, animate_offset=None, size_change_interval=10, on_size_change=None, on_animation_end=None, scroll=None, auto_scroll=False, scroll_interval=10, on_scroll=None, controls=[], route='/', appbar=None, bottom_appbar=None, floating_action_button=None, floating_action_button_location=None, navigation_bar=None, drawer=None, end_drawer=None, vertical_alignment=<MainAxisAlignment.START: 'start'>, horizontal_alignment=<CrossAxisAlignment.START: 'start'>, spacing=10, padding=Padding(left=10, top=10, right=10, bottom=10), bgcolor=None, decoration=None, foreground_decoration=None, fullscreen_dialog=False, services=[], can_pop=True, on_confirm_pop=None)], theme_mode=<ThemeMode.SYSTEM: 'system'>, theme=None, dark_theme=None, locale_configuration=None, show_semantics_debugger=None, title=None, enable_screenshots=False, on_resize=None, on_media_change=None, media=PageMediaData(padding=Padding(left=0, top=0, right=0, bottom=0), view_padding=Padding(left=0, top=0, right=0, bottom=0), view_insets=Padding(left=0, top=0, right=0, bottom=0), device_pixel_ratio=1.25, orientation=<Orientation.LANDSCAPE: 'landscape'>, always_use_24_hour_format=False), width=1265.6, height=682.4, _overlay=Overlay(_i=4, _c='Overlay', data=None, key=None, controls=[]), _dialogs=Dialogs(_i=5, _c='Dialogs', data=None, key=None, controls=[]), multi_views=[], window=Window(_i=2, _c='Window', data=None, key=None, bgcolor=None, width=1280.0, height=720.0, top=9.6, left=9.6, max_width=None, max_height=None, min_width=None, min_height=None, opacity=1.0, aspect_ratio=None, brightness=None, maximized=False, minimized=False, minimizable=True, maximizable=True, resizable=True, movable=True, full_screen=False, always_on_top=False, always_on_bottom=False, prevent_close=False, skip_task_bar=False, title_bar_hidden=False, title_bar_buttons_hidden=False, frameless=False, progress_bar=None, focused=True, visible=True, shadow=True, alignment=None, badge_label=None, icon=None, ignore_mouse_events=False, on_event=None), route='/', web=False, pwa=False, debug=False, wasm=False, test=False, multi_view=False, pyodide=False, platform_brightness=<Brightness.LIGHT: 'light'>, client_ip=None, client_user_agent=None, platform=<PagePlatform.WINDOWS: 'windows'>, fonts=None, on_platform_brightness_change=None, on_locale_change=None, on_app_lifecycle_state_change=None, on_route_change=None, on_view_pop=None, on_keyboard_event=None, on_connect=None, on_disconnect=None, on_close=None, on_login=None, on_logout=None, on_error=None, on_multi_view_add=None, on_multi_view_remove=None, _services=ServiceRegistry(_i=7, _c='ServiceRegistry', data=None, key=None, _services=[])), error=''))
+INFO:flet:App session started
+ERROR:flet:Unhandled error in main() handler
+Traceback (most recent call last):
+  File "C:\Users\mulug\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flet\app.py", line 354, in on_session_created
+    main(session.page)
+    ~~~~^^^^^^^^^^^^^^
+  File "C:\Users\mulug\OneDrive\Desktop\pro\flet_learnix\main.py", line 12, in run_flet_app
+    from state.app_state import AppState
+ModuleNotFoundError: No module named 'state'
+DEBUG:flet_transport:send_message: ClientMessage(action=<ClientAction.SESSION_CRASHED: 6>, body=SessionCrashedBody(message='No module named \'state\'\nTraceback (most recent call last):\n  File "C:\\Users\\mulug\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\flet\\app.py", line 354, in on_session_created\n    main(session.page)\n    ~~~~^^^^^^^^^^^^^^\n  File "C:\\Users\\mulug\\OneDrive\\Desktop\\pro\\flet_learnix\\main.py", line 12, in run_flet_app\n    from state.app_state import AppState\nModuleNotFoundError: No module named \'state\'\n'))
+DEBUG:flet_transport:_on_message: ClientAction.UPDATE_CONTROL_PROPS {'id': 1, 'props': {'platform_brightness': 'light'}}
+DEBUG:flet_transport:_on_message: ClientAction.CONTROL_EVENT {'target': 1, 'name': 'platform_brightness_change', 'data': 'light'}
+DEBUG:flet_transport:_on_message: ClientAction.UPDATE_CONTROL_PROPS {'id': 1, 'props': {'media': {'padding': {'top': 0.0, 'right': 0.0, 'bottom': 0.0, 'left': 0.0}, 'view_padding': {'top': 0.0, 'right': 0.0, 'bottom': 0.0, 'left': 0.0}, 'view_insets': {'top': 0.0, 'right': 0.0, 'bottom': 0.0, 'left': 0.0}, 'device_pixel_ratio': 1.25, 'orientation': 'landscape', 'always_use_24_hour_format': False}}}
+DEBUG:flet_transport:_on_message: ClientAction.UPDATE_CONTROL_PROPS {'id': 1, 'props': {'width': 1265.6, 'height': 682.4}}
+DEBUG:flet_transport:_on_message: ClientAction.UPDATE_CONTROL_PROPS {'id': 2, 'props': {'maximized': False, 'minimized': False, 'full_screen': False, 'always_on_top': False, 'focused': True, 'visible': True, 'width': 1280.0, 'height': 720.0, 'top': 9.6, 'left': 9.6, 'opacity': 1.0}}
+DEBUG:flet_controls:Trigger event Page(1 - 1276760316224).on_platform_brightness_change Event(name='platform_brightness_change', data='light')
+DEBUG:flet_transport:send_message: ClientMessage(action=<ClientAction.PATCH_CONTROL: 2>, body=PatchControlBody(id=1, patch=[[0, {'views': [1, {0: [2]}]}], [<Operation.Replace: 0>, 0, 'title', 'Learnix'], [<Operation.Replace: 0>, 0, 'theme_mode', <ThemeMode.LIGHT: 'light'>], [<Operation.Replace: 0>, 2, 'padding', 0]]))
+DEBUG:flet_transport:_on_message: ClientAction.CONTROL_EVENT {'target': 1, 'name': 'app_lifecycle_state_change', 'data': {'state': 'inactive'}}
+DEBUG:flet_controls:Trigger event Page(1 - 1276760316224).on_app_lifecycle_state_change AppLifecycleStateChangeEvent(name='app_lifecycle_state_change', data=None, state=<AppLifecycleState.INACTIVE: 'inactive'>)
+DEBUG:flet_transport:_on_message: ClientAction.UPDATE_CONTROL_PROPS {'id': 2, 'props': {'maximized': False, 'minimized': True, 'full_screen': False, 'always_on_top': False, 'focused': False, 'visible': True, 'width': 159.20000000000073, 'height': 27.200000000000728, 'top': -25600.0, 'left': -25600.0, 'opacity': 1.0}}
+DEBUG:flet_transport:_on_message: ClientAction.UPDATE_CONTROL_PROPS {'id': 2, 'props': {'maximized': False, 'minimized': True, 'full_screen': False, 'always_on_top': False, 'focused': False, 'visible': True, 'width': 159.20000000000073, 'height': 27.200000000000728, 'top': -25600.0, 'left': -25600.0, 'opacity': 1.0}}
+DEBUG:flet:Receive loop exiting.
+DEBUG:flet:Send loop cancelled.
+DEBUG:flet:Send loop exiting.
+DEBUG:flet:Terminating existing connection (client_disconnected).
+DEBUG:flet:Closing expired session: I53pO3WYRr2wmXLP
+DEBUG:flet:pubsub.unsubscribe_all(I53pO3WYRr2wmXLP)
+DEBUG:flet:pubsub.__unsubscribe(I53pO3WYRr2wmXLP)
+DEBUG:flet_controls:Trigger event Page(1 - 1276760316224).on_close Event(name='close', data=None)
+INFO:flet:Session was garbage collected: I53pO3WYRr2wmXLP
+DEBUG:flet:Connection writer closed.
+DEBUG:flet_desktop:Flet View process 21336
+DEBUG:flet:Closing connection...
+DEBUG:flet:No active connection to terminate.
+DEBUG:flet:Shutting down TCP server...
+DEBUG:flet:Shutting down thread pool...
+DEBUG:flet:Cancelling pending tasks...
+DEBUG:flet:Connection closed.

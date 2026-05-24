@@ -1,0 +1,30 @@
+[project]
+name = "learnix"
+version = "1.0.0"
+description = "Smart Learning Analytics and Early Warning System"
+requires-python = ">=3.11"
+dependencies = [
+    "flet",
+    "pandas",
+    "numpy",
+    "bcrypt",
+    "cryptography",
+    "openpyxl",
+]
+
+[tool.flet]
+# Entry point for the Flet application
+app.module = "main"
+app.function = "run_flet_app"
+
+# App metadata
+app.name = "Learnix"
+app.description = "School Management System"
+app.version = "1.0.0"
+
+# Build configuration
+app.assets_dir = "assets"
+
+[build-system]
+requires = ["flit_core>=3.2"]
+build-backend = "flit_core.flit_backend"
