@@ -175,12 +175,30 @@ The current education system often suffers from:
 
 ---
 
-## Potential Tech Stack
+## Tech Stack
 
-- Frontend: HTML, Tailwind CSS, JavaScript  
-- Charts: Chart.js / Recharts  
-- Backend (optional): Node.js / Firebase  
-- Database: Firestore / PostgreSQL  
+### 1. Core Language & Framework
+- Python 3.11+ — Primary programming language for the application logic  
+- Flet — Modern UI framework used to build cross-platform apps (Windows, Android, iOS, Web) from a single Python codebase using the Flutter engine  
+
+---
+
+### 2. Database & Data Management
+- SQLite — Lightweight, serverless local database used to store all school data (users, subjects, grades, tracking, etc.) directly on the device  
+- Pandas / NumPy / Openpyxl — Used for data processing, analytics, mathematical operations, and Excel import/export  
+
+---
+
+### 3. Security
+- Bcrypt — Secure password hashing to protect user credentials in the database  
+- Cryptography (Fernet) — Encrypts sensitive application data stored locally  
+
+---
+
+### 4. Build & Deployment Pipeline
+- Visual Studio Build Tools (C++) — Required for compiling Windows desktop `.exe` builds using Flet  
+- Java JDK 17 & Android SDK — Required for building Android `.apk` applications  
+- GitHub Releases & Pages — Used for hosting downloadable builds and a public landing page accessible via QR code  
 
 ---
 
