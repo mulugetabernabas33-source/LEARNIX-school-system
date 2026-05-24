@@ -1,5 +1,3 @@
-<img width="1920" height="968" alt="Screenshot (128)" src="https://github.com/user-attachments/assets/51b0952c-3568-4665-959f-2901bae23ed7" />
-<img width="1920" height="968" alt="Screenshot (128)" src="https://github.com/user-attachments/assets/77a442a9-89cb-4435-936b-e9431b37b175" />
 # LEARNIX-school-system
 # LEARNIX  
 ### Smart Educational Performance Intelligence System
@@ -57,6 +55,8 @@ It replaces fragmented, manual, and delayed reporting systems with a transparent
 - Identify:  
   - Top performers  
   - Struggling students  
+<img width="1920" height="969" alt="Screenshot (129)" src="https://github.com/user-attachments/assets/0ff483ce-6530-449c-8b51-918c92d95a7a" />
+
 
 ---
 
@@ -67,6 +67,7 @@ It replaces fragmented, manual, and delayed reporting systems with a transparent
   - Previous results  
   - Class average  
 - Early warning signals for decline  
+<img width="1920" height="953" alt="Screenshot (130)" src="https://github.com/user-attachments/assets/4397b5a3-3aed-46c6-8cbd-32ad628f61fd" />
 
 ---
 
@@ -76,7 +77,7 @@ It replaces fragmented, manual, and delayed reporting systems with a transparent
 - Class rankings  
 - Trend analysis across terms  
 - Identify weak departments  
-
+<img width="1920" height="962" alt="Screenshot (131)" src="https://github.com/user-attachments/assets/065faff5-5654-49df-bcd5-828ec50f1b28" />
 ---
 
 ### Wereda Dashboard
@@ -84,6 +85,7 @@ It replaces fragmented, manual, and delayed reporting systems with a transparent
 - Rank schools by performance  
 - Detect underperforming schools  
 - Request performance insights from schools  
+<img width="1920" height="974" alt="Screenshot (132)" src="https://github.com/user-attachments/assets/d71f9dd7-5751-483a-a011-5c722e688508" />
 
 ---
 
@@ -91,6 +93,7 @@ It replaces fragmented, manual, and delayed reporting systems with a transparent
 - Monitor wereda performance  
 - Compare regional trends  
 - Identify systemic issues across areas  
+<img width="1920" height="970" alt="Screenshot (133)" src="https://github.com/user-attachments/assets/671b061d-4111-49ca-b62a-ddee5da6c511" />
 
 ---
 
@@ -99,7 +102,7 @@ It replaces fragmented, manual, and delayed reporting systems with a transparent
 - Compare kifle ketemas  
 - Policy impact analysis  
 - Detect large-scale educational trends  
-
+<img width="1920" height="968" alt="Screenshot (128)" src="https://github.com/user-attachments/assets/51b0952c-3568-4665-959f-2901bae23ed7" />
 ---
 
 ## Key Features
