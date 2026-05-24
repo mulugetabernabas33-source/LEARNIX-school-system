@@ -1,3 +1,5 @@
+<img width="1920" height="968" alt="Screenshot (128)" src="https://github.com/user-attachments/assets/51b0952c-3568-4665-959f-2901bae23ed7" />
+<img width="1920" height="968" alt="Screenshot (128)" src="https://github.com/user-attachments/assets/77a442a9-89cb-4435-936b-e9431b37b175" />
 # LEARNIX-school-system
 # LEARNIX  
 ### Smart Educational Performance Intelligence System
