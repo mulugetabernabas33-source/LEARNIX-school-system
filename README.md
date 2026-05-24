@@ -1,6 +1,6 @@
 # LEARNIX-school-system
 LEARNIX
-Smart Educational Performance Intelligence System
+Smart Educational Performance Intelligence Syste
 
 A data-driven platform designed to transform how educational performance is monitored, analyzed, and improved — from individual students to city-wide education systems.
 
